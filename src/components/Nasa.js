@@ -35,7 +35,7 @@ const getLocation = () => {
 return(
     <div id="app">
         <h1>Nasa Satellite Image</h1>
-        <button onClick={getLocation}>Get Location</button>
+        <button id="button" onClick={getLocation}>Get Location</button>
         <br />
         <img style={{height: 190, width: 190}} src={NASAImg} />
         <p>{status}</p>
